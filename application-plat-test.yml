@@ -1,0 +1,6 @@
+#服务提供者
+server:
+  port: 8003
+spring:
+  application:
+    name: AIGOU-PLAT

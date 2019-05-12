@@ -1,0 +1,6 @@
+#服务提供者
+server:
+  port: 8001
+spring:
+  application:
+    name: AIGOU-PLAT
