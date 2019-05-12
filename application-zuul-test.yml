@@ -2,11 +2,11 @@ server:
   port: 9529
 spring:
   application:
-    name: AIGOU-ZUUL-GATEWAY
+    name: YIGOU-ZUUL-GATEWAY
 zuul:
   ignored-services: "*" #用*来通配符，忽略从9527端口通过服务名来调用
   prefix: "/services" #这是所有路径的前缀
   routes:
     plat:
       path: /plat/**
-      service-id: aigou-plat
+      service-id: yigou-plat

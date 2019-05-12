@@ -3,4 +3,4 @@ server:
   port: 8003
 spring:
   application:
-    name: AIGOU-PLAT
+    name: YIGOU-PLAT

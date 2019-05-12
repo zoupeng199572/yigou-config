@@ -2,7 +2,7 @@ server:
   port: 9527
 spring:
   application:
-    name: AIGOU-ZUUL-GATEWAY
+    name: YIGOU-ZUUL-GATEWAY
 
 zuul:
   ignored-services: "*" #用*来通配符，忽略从9527端口通过服务名来调用
@@ -10,4 +10,4 @@ zuul:
   routes:
     plat:
       path: /plat/**
-      service-id: aigou-plat
+      service-id: yigou-plat
