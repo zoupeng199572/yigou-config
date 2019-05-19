@@ -11,3 +11,6 @@ zuul:
     plat:
       path: /plat/**
       service-id: yigou-plat
+    product:
+      path: /product/**
+      service-id: yigou-product

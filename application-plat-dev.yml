@@ -1,12 +1,10 @@
 server:
-  port: 9001
+  port: 8001
 spring:
   application:
-    name: AIGOU-PRODUCT
+    name: YIGOU-PLAT
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///aigou-product?useSSL=false&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql:///yigou-plat?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: root
-mybatis-plus:
-type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
