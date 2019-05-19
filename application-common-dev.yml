@@ -1,0 +1,7 @@
+#呵呵
+server:
+  port: 6969
+  max-http-header-size: 10000000
+spring:
+  application:
+    name: YIGOU-COMMON
