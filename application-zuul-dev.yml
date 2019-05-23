@@ -14,3 +14,14 @@ zuul:
     product:
       path: /product/**
       service-id: yigou-product
+    common:
+      path: /common/**
+      service-id: yigou-common
+yigou-common: 
+  ribbon:
+    ConnectTimeout: 50000
+    ReadTimeout: 50000
+yigou-product: 
+  ribbon:
+    ConnectTimeout: 50000
+    ReadTimeout: 50000
